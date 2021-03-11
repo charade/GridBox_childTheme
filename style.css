@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Gridbox charlesEk_ChildTheme
+ Description:  Thème enfant de Gridbox
+ Author:       charles.Ek
+ Author URI:   https://pehaa.com
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+*/
+
+#charlesCanvas{
+    position : absolute;
+    z-index:10;
+    top : 0;
+    left: 0;
+    width : 100%;
+    height:100%;
+    border : 3px solid red;
+}
+
+#colophon{
+    position : relative;
+}
+
+#footer-text{
+    text-align:center;
+}
