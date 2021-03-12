@@ -14,6 +14,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel='stylesheet' href='style.css'>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
@@ -50,4 +51,10 @@
 
 		<?php gridbox_breadcrumbs(); ?>
 
-		<div id="content" class="site-content container clearfix">
+		<div class="sponsor-info">
+  <a href="<?php echo esc_url( get_theme_mod('gridbox_child_info_sponsor_link') ); ?>">
+    <?php echo esc_html( get_theme_mod('gridbox_child_info_sponsor_text') ); ?>
+  </a>
+</div>
+		
+		

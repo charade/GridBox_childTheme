@@ -1,12 +1,22 @@
 /*
- Theme Name:   Gridbox charlesEk_ChildTheme
- Description:  Thème enfant de Gridbox
+ Theme Name:   Gridbox child Theme by Charles.Ek
+ Description:  Thème enfant de Gridbox qui anime le footer et y ajoute une interaction au mouvement de la souris.
+               
  Author:       charles.Ek
- Author URI:   https://pehaa.com
+ Author URI:   github.com/charade
  Template:     gridbox
  Version:      1.0.0
  License:      GNU General Public License v2 or later
 */
+
+#masthead{
+    background: #9a7870;
+}
+
+
+#colophon{
+    position : relative;
+}
 
 #charlesCanvas{
     position : absolute;
@@ -15,13 +25,30 @@
     left: 0;
     width : 100%;
     height:100%;
-    border : 3px solid red;
 }
 
-#colophon{
-    position : relative;
-}
+
 
 #footer-text{
     text-align:center;
+    font-weight: 800;
+    font-family: 'Courier New';
+    font-size : 18px;
+    color:#9a7870;
+}
+
+.sponsor-info a {
+    margin-top : 1.5rem;
+    display: inline-block;
+    background: #9a7870;
+    color: white;
+    padding: 1rem;
+    box-shadow: .25rem .25rem 0 var(--header-background-color);
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+
+.sponsor-info a:hover {
+    box-shadow: 0 0 0 var(--header-background-color);
+    background-color: var(--header-background-color);
 }

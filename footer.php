@@ -14,12 +14,12 @@
 	<?php do_action( 'gridbox_before_footer' ); ?>
 
 	<div id="footer" class="footer-wrap">
-	
+		
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
-			<canvas id='charlesCanvas'></canvas>
+		<canvas id='charlesCanvas'></canvas>
+
 			<div id="footer-text" class="site-info">
-				
-				<?php do_action( 'gridbox_footer_text' ); ?>
+				<p>Interactive Gridbox child Theme by Charles.Ek</p>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
